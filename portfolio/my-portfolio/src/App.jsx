@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Navigation from './components/Navigation/Navigation';
 
 function App() {
   return (
-    <p>
-      Cleaned up react app.
-    </p>
+    <div className="main-wrapper">
+      <Navigation />
+    </div>
   );
 }
 
