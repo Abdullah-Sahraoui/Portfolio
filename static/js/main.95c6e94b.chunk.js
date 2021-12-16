@@ -1,2 +1,0 @@
-(this["webpackJsonpmy-portfolio"]=this["webpackJsonpmy-portfolio"]||[]).push([[0],{11:function(t,e,n){"use strict";n.r(e);var o=n(0),c=n.n(o),r=n(3),i=n.n(r),p=(n(8),n(9),n(1));var s=function(){return Object(p.jsx)("p",{children:"Cleanedup React App"})};i.a.render(Object(p.jsx)(c.a.StrictMode,{children:Object(p.jsx)(s,{})}),document.getElementById("root"))},8:function(t,e,n){},9:function(t,e,n){}},[[11,1,2]]]);
-//# sourceMappingURL=main.95c6e94b.chunk.js.map
