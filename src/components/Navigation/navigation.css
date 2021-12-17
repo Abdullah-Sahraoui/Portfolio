@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Black Rocket";
+  src: url("../../Fonts/Black\ Rocket.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../Fonts/Montserrat-Regular.ttf");
+}
+
+.active {
+  transition: all 0.2s;
+  transform: scale(1.02);
+  background-color: rgb(229 231 235);
+}
+
+.inactive {
+  transition: all 0.2s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.black-rocket {
+  font-family: 'Black Rocket', sans-serif;
+  color: #575757;
+}
+
+.subtitle {
+  font-family: 'Montserrat';
+  color: #575757;
+}
