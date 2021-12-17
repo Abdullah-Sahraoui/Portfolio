@@ -4,7 +4,9 @@ import Navigation from './components/Navigation/Navigation';
 
 function App() {
   return (
-    <div className="main-wrapper overlay">
+    <div className="main-div">
+    {/* div.cover is for the grey overlay */}
+      <div className="cover"></div>
       <Navigation />
     </div>
   );
