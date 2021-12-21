@@ -1,11 +1,13 @@
 html {
   background-image: url("./SVG/home-bg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .cover {
   position: absolute;
-  background-color: #404040;
   width: 100vw;
   height: 100vh;
-  opacity: 0.3;
 }

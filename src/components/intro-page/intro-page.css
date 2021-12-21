@@ -1,0 +1,11 @@
+.intro-container {
+  background-color: rgba(90, 90, 90, 0.3);
+  min-width: 100vh;
+  min-height: calc(100vh - 128px);
+}
+
+.intro-page {
+  font-family: 'Montserrat Medium', sans-serif;
+  background-color:rgba(90, 90, 90, 0.5);
+  color: white;
+}
