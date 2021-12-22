@@ -10,7 +10,7 @@ const Navigation = () => {
 
   window.addEventListener("scroll", changeBg);
 
-  const classes = "header flex shadow-lg sticky";
+  const classes = "header flex shadow-lg sticky top-0 bg-white";
   
   return (
     <div className={(navbar ? classes + " active" : classes + " inactive")}>

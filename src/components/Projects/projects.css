@@ -1,0 +1,21 @@
+.projects-container {
+  min-height: calc(100vh - 128px);
+  background-image: url("../../SVG/Projects-bg-min.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #575757;
+}
+
+.projects-title {
+  font-family: 'Montserrat Medium', sans-serif;
+}
+
+.projects-subtitle {
+  font-family: 'Courier New', sans-serif;
+}
+
+.tiles {
+  background-color: rgba(125,125,125, 0.57);
+}

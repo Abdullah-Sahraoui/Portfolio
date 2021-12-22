@@ -1,12 +1,12 @@
 .active {
   transition: all 0.2s;
-  transform: scale(1.02);
+  padding: 0;
   background-color: rgb(229 231 235);
 }
 
 .inactive {
   transition: all 0.2s;
-  transform: scale(1);
+  padding: 12px;
   opacity: 1;
 }
 

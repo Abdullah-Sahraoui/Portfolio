@@ -1,0 +1,14 @@
+
+
+.tile-container {
+  width: 487px;
+  height: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0px 12px 8px rgba(120, 120, 120, 0.84);
+}
+
+.tile-title {
+  font-family: 'Courier New', sans-serif;
+}
