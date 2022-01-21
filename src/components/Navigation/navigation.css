@@ -2,6 +2,7 @@
   transition: all 0.2s;
   padding: 0;
   background-color: rgb(229 231 235);
+  z-index: 3;
 }
 
 .inactive {

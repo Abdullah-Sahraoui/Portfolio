@@ -1,4 +1,12 @@
-.projects-container {
+.projects-title {
+  font-family: 'Montserrat Medium', sans-serif;
+}
+
+.projects-subtitle {
+  font-family: 'Courier New', sans-serif;
+}
+
+.tiles-container {
   min-height: calc(100vh - 128px);
   background-image: url("../../SVG/Projects-bg-min.png");
   background-position: center center;
@@ -8,14 +16,14 @@
   color: #575757;
 }
 
-.projects-title {
-  font-family: 'Montserrat Medium', sans-serif;
-}
-
-.projects-subtitle {
-  font-family: 'Courier New', sans-serif;
-}
-
 .tiles {
   background-color: rgba(125,125,125, 0.57);
+  
+}
+
+@media (max-width: 1580px) {
+  .tiles {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

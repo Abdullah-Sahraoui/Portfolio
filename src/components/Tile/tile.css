@@ -1,14 +1,22 @@
-
-
 .tile-container {
-  width: 487px;
+  min-width: 487px;
   height: 350px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   box-shadow: 0px 12px 8px rgba(120, 120, 120, 0.84);
+  flex-shrink: 0;
 }
 
 .tile-title {
   font-family: 'Courier New', sans-serif;
+}
+
+@media (max-width: 1580px) {
+  .tile-container {
+    max-width: 487px;
+    flex-grow: 0.6;
+    flex-basis: 100%;
+    z-index: 0;
+  }
 }
